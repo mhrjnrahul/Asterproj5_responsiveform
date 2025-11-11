@@ -18,15 +18,35 @@
             padding: 0;
             box-sizing: border-box;
         }
+
+        header{
+            background-color: #4f1b6b;
+        }
+
+        .card-header{
+            background-color: #4f1b6b;
+        }
     </style>
 </head>
 
 <body>
-    <header class="container py-5">
-        <div class="text-center mb-4">
-            <h1 class="fw-bold text-primary">SQ COLLEGIATE</h1>
-            <h5 class="text-secondary">A Project of Sir Qaseem</h5>
+    <header class="w-100 p-2">
+        <div class="row">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <img src="download-removebg-preview.png" alt="logo">
+            </div>
+            <div class="col-md-8 d-flex justify-content-center flex-column align-items-center">
+                <h1 class="fw-bold text-white">SQ COLLEGIATE</h1>
+                <h5 class="text-secondary text-white">A Project of Sir Qaseem</h5>
+            </div>
         </div>
+        <!-- <div class="image">
+            <img src="download-removebg-preview.png" alt="logo">
+        </div>
+        <div class="text-center mb-4">
+            <h1 class="fw-bold text-white">SQ COLLEGIATE</h1>
+            <h5 class="text-secondary text-white">A Project of Sir Qaseem</h5>
+        </div> -->
     </header>
 
     <form class="border p-4 bg-white shadow rounded container mb-5">
@@ -36,7 +56,7 @@
 
             <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <div class="card-header text-white bg-primary fw-bold text-center">ADMISSION FOR</div>
+                    <div class="card-header text-white fw-bold text-center">ADMISSION FOR</div>
                     <div class="card-body">
                         <div class="row mb-2">
                             <div class="col-2 d-flex flex-column gap-2">
@@ -86,7 +106,7 @@
             <!-- Group of studies -->
             <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <div class="card-header text-white bg-primary text-center fw-bold">GROUP OF STUDIES</div>
+                    <div class="card-header text-white text-center fw-bold">GROUP OF STUDIES</div>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-6">
@@ -136,7 +156,7 @@
             <!-- for office use -->
             <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <div class="card-header text-white bg-primary text-center fw-bold">FOR OFFICE USE ONLY</div>
+                    <div class="card-header text-white text-center fw-bold">FOR OFFICE USE ONLY</div>
                     <div class="card-body">
                         <div class="row align-items-center mb-2">
                             <div class="col-md-4">
@@ -174,7 +194,7 @@
         <div class="row">
             <div class="col-md-7">
                 <div class="card shadow-sm mb-5">
-                    <div class="card-header text-white bg-primary">OPTIONAL SUBJECTS</div>
+                    <div class="card-header text-white">OPTIONAL SUBJECTS</div>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-4">
@@ -214,7 +234,7 @@
 
             <div class="col-md-5">
                 <div class="card shadow-sm mb-5">
-                    <div class="card-header text-white bg-primary">COMPULSORY SUBJECTS</div>
+                    <div class="card-header text-white">COMPULSORY SUBJECTS</div>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-6">
@@ -254,8 +274,10 @@
 
         <!-- Main Profile -->
         <section>
-            <h6>Please complete this form in BLOCK LETTERS</h6>
-            <h1>STUDENTS PESRSONAL PROFILE</h1>
+            <div class="card-header mb-3">
+                <h6 class="small text-white">Please complete this form in BLOCK LETTERS</h6>
+                <h1 class="fw-bold text-white">STUDENTS PESRSONAL PROFILE</h1>
+            </div>
 
             <div class="row">
                 <div class="col-md-10">
